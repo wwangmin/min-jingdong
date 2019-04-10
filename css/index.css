@@ -1,3 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:12px;
+}
+li{
+	list-style-type:none;
+}
+a,a:visited{
+	text-decoration:none;
+}
+a:hover{
+	color:#e4393c;
+}
+.container{
+	width:1211px;
+	margin:0 auto;
+}
+.lf{
+	float:left;
+}
+.rf{
+	float:right;
+}
+input,button{
+	outline:none;
+}
+i{
+	background-image: url(../images/iconlist_2.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+	vertical-align:middle;
+}
+b{
+	background-image: url(../images/iconlist_2.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+	vertical-align:middle;
+}
+.clearfloat:after{
+	content:'';
+	display:block; 
+	clear:both;
+}
+
+
+
+
+
+
 
 .header{
 	background-color:#fafafa;
